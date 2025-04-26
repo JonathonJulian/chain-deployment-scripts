@@ -5,7 +5,8 @@
     "scripts": {
       "deploy-chain": "ts-node ./src/chain-deploy/index.ts",
       "get-chain-config": "ts-node ./src/chain-config/index.ts",
-      "set-keyset": "ts-node ./src/set-keyset/index.ts"
+      "set-keyset": "ts-node ./src/set-keyset/index.ts",
+      "get-private-key-wallet": "ts-node ./src/get-private-key-wallet/index.ts"
     },
     "dependencies": {
       "@arbitrum/orbit-sdk": "^0.21.2",
